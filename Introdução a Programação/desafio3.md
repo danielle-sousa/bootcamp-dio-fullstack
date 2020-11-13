@@ -26,7 +26,6 @@ Exemplos de Entrada	  | Exemplos de Saída
 1 |
 1 |
 1 | 
-
 2 | 7325
 2 |
 2 |
