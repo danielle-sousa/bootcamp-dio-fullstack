@@ -5,3 +5,7 @@ Aprenda as tecnologias utilizadas pela everis no desenvolvimento de projetos ino
 - Intermediário
 - 36 atividades
 - 120 hrs
+
+# Projetos
+* [Recriando a Página de Login do Instagram](https://github.com/danielle-sousa/instagram_clone)
+* [Recriando a Interface da Netflix](https://github.com/danielle-sousa/netflix_clone)
