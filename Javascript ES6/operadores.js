@@ -143,3 +143,43 @@ var o6 = "Gato" || false;   //t || f retorna Gato
 var n1 = !true;     //!t retorna false
 var n2 = !false;    //!f retorna true
 var n2 = !"Gato";   //!t retorna false (string com valor é true)
+
+/*******UNÁRIOS*******/
+
+//Deletar algo
+delete something;
+
+//Determinar tipo
+typeof something;
+
+/**********BINÁRIOS********/
+
+//in
+something in somethingItems
+
+//Arrays
+var arvores = new Array("pau-brasil", "loureiro", "cedro", "carvalho", "sicomoro");
+0 in arvores;           //retorna true
+3 in arvores;           //retorna true
+6 in arvores;           //retorna false
+"cedro" in arvores;     //retorna false (você deve especificar o número do indice, não o valor naquele indice)
+"length" in arvores     //retorna true (lenght é uma propriedade de Array)
+
+//Objetos predefinidos
+"PI" in Math;                           //retorna true
+var minhaString = new String("coral");
+"length" in minhaString;                //retorna true
+
+//Objetos personalizados
+var meuCarro = {marca: "Honda", modelo: "Accord", ano: 1998};
+"marca" in meuCarro;    //retorna true
+"modelo" in meuCarro;   //retorna true
+
+//instanceof
+objeto instanceof tipoObjeto
+
+var dia = new Date(2018, 12, 17);
+
+if (dia instanceof Date) {      //dia é instancia de date
+    //code here
+}
