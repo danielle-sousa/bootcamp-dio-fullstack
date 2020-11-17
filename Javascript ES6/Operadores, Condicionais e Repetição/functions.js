@@ -21,7 +21,7 @@ const logFnResult = fnParam => console.log(fnParam());
 logFnResult(fn);
 
 //Receber e retornar funções
-const controlFnExec => fnParam => allowed => {
+const controlFnExec = fnParam => allowed => {
     if (allowed) {
         fnParam();
     }

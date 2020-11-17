@@ -41,11 +41,11 @@ array.forEach(item => {
 
 switch (expressão) {
     case valor1:
-        [break;]
+        break;
     case valor2:
-        [break;]
+        break;
     default:
-        [break;]
+        break;
 }
 
 const fruit = 'banana';
